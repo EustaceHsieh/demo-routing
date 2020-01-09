@@ -25,3 +25,27 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## ===================
+建立專案
+ng new iisi -p=iisi
+
+建立 Layout頁面
+ng g c layout
+
+建立第一大類模組
+ng g module inq
+ng g module don
+ng g module acc
+
+
+建立功能模組-與次級路由器
+ng g module inq/donation --routing -m=inq
+
+ng g module don/donation --routing -m=don
+
+建立元件
+ng g c inq/donation/inqDonation
+ng g c inq/collection/inqCollection
+
+ng g c don/donation/donDonation
